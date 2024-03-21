@@ -1,10 +1,10 @@
 import React from "react";
-import "../CSS/Header.css"
+import "../CSS/Header.css";
 
 function Header() {
   return (
     <header>
-      <h1>Your Name</h1>
+      <h1>Usaid's React Portfolio!</h1>
       <nav>
         <ul>
           <li><a href="#about">About</a></li>

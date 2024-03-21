@@ -1,13 +1,13 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
+import ReactDOM from "react-dom";
+import "./index.js";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
-import Resume from "./pages/Resume";
-import Contact from "./pages/Contact";
+import Home from "./pages/Home.js";
+import About from "./pages/About.js";
+import Portfolio from "./pages/Portfolio.js";
+import Resume from "./pages/Resume.js";
+import Contact from "./pages/Contact.js";
 
 
 const routes = createBrowserRouter([
@@ -16,19 +16,19 @@ const routes = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/",
+    path: "/about",
     element: <About />,
   },
   {
-    path: "/",
+    path: "/portfolio",
     element: <Portfolio />,
   },
   {
-    path: "/",
+    path: "/resume",
     element: <Resume/>,
   },
   {
-    path: "/",
+    path: "/contact",
     element: <Contact/>,
   },
   
